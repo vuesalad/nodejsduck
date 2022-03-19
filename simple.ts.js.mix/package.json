@@ -1,0 +1,43 @@
+{
+  "__comment": "     type:  module",
+  "type": "module",
+  "name": "nodejs-simple-ts",
+  "version": "1.0.0",
+  "description": "cli example",
+  "main": "main.js",
+  "__comment2_bin": {
+    "mycli": "./bin/main.js"
+  },
+  "scripts": {
+    "dev": "npx tsc  && node dist/main.js",
+    "test:unit": "jest --coverage",
+    "test:onlychanged": "jest --onlyChanged --coverage",
+    "lint": "standard",
+    "test": "npm run lint && npm run test:unit"
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "Saladworks",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "@typescript-eslint/parser": "4",
+    "eslint": "7",
+    "jest": "^25.2.6",
+    "standard": "^16.0.4",
+    "ts-standard": "^11.0.0",
+    "typescript": "4.4"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "test",
+      "expect",
+      "jest"
+    ]
+  },
+  "dependencies": {
+    "standard-engine": "^14.0.1"
+  }
+}
