@@ -17,15 +17,20 @@
     //
     "declaration": true,
     "allowJs": true,
+    "types": ["@peeky/test"],
+    "esModuleInterop": true // Necessary for 'expect' typing to work
 
   },
   
   
   "include": [
     "src/**/*.ts",
-    "src/**/*.js"
+    "src/**/*.js",
+    "test/**/*.spec.ts"
   ],
   "exclude": [
     "node_modules"
   ]
+
+ 
 }
