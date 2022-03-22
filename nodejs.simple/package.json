@@ -10,9 +10,7 @@
   },
   "scripts": {
     "dev": "node src/main.js",
-    "test:open": "peeky open",
-    "test": "peeky run",
-    "lint": "standard"
+    "lint": "npx eslint ./src/**/*.js"
   },
   "keywords": [
     ""
@@ -20,16 +18,13 @@
   "author": "Saladworks",
   "license": "MIT",
   "devDependencies": {
-    "@peeky/test": "^0.13.5",
     "eslint": "^8.11.0",
-    "standard": "^14.3.3"
-  },
-  "standard": {
-    "globals": [
-      "describe",
-      "test",
-      "expect",
-      "jest"
-    ]
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-react": "^7.29.4",
+    "prettier": "^2.6.0"
   }
 }
