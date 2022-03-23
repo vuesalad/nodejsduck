@@ -1,9 +1,9 @@
-function substractTwo (num) {
-  return num - 2
+function substractTwo(num) {
+  return num - 2;
 }
 
-function substractThree (num) {
-  return num - 3
+function substractThree(num) {
+  return num - 3;
 }
 
-export { substractTwo, substractThree }
+export { substractTwo, substractThree };

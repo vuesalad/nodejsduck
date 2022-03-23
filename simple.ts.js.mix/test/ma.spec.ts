@@ -1,6 +1,6 @@
 import { addThree, addTwo } from '../src/lib/modulea'
 
-import {} from '@peeky/test'
+
 
 const a: number = 6
 const b: number = 9

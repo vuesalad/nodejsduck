@@ -1,7 +1,7 @@
 {
   "__extends_commented": "@tsconfig/recommended/tsconfig.json",
   "compilerOptions": {
-    "rootDir": "src",
+    "rootDir":  "src",
     "outDir": "dist",
     "target": "es2020",
     "lib": [
@@ -17,7 +17,6 @@
     //
     "declaration": true,
     "allowJs": true,
-    "types": ["@peeky/test"],
     "esModuleInterop": true // Necessary for 'expect' typing to work
 
   },
@@ -25,8 +24,7 @@
   
   "include": [
     "src/**/*.ts",
-    "src/**/*.js",
-    "test/**/*.spec.ts"
+    "src/**/*.js"
   ],
   "exclude": [
     "node_modules"

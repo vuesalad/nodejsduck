@@ -10,8 +10,7 @@
   },
   "scripts": {
     "dev": "npx tsc  && node dist/main.js",
-    "lint": "standard",
-    "test": "peeky run"
+    "lint": "npx eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "keywords": [
     ""
@@ -19,30 +18,17 @@
   "author": "Saladworks",
   "license": "MIT",
   "devDependencies": {
-    "@peeky/test": "^0.13.5",
-    "@tsconfig/recommended": "^1.0.1",
-    "@typescript-eslint/parser": "4",
-    "eslint": "7",
-    "standard": "^16.0.4",
-    "ts-standard": "^11.0.0",
-    "typescript": "4.4"
-  },
-  "standard": {
-    "globals": [
-      "describe",
-      "test",
-      "expect",
-      "jest"
-    ]
-  },
-  "dependencies": {
-    "standard-engine": "^14.0.1"
-  },
-
-  "ts-standard": {
-    "ignore": [
-      "dist",
-      "test/**/*.js"
-    ]
+    "@typescript-eslint/eslint-plugin": "^5.16.0",
+    "@typescript-eslint/parser": "^5.16.0",
+    "eslint": "^8.11.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^16.1.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-react": "^7.28.0",
+    "prettier": "^2.6.0",
+    "typescript": "^4.6.2"
   }
 }
