@@ -3,6 +3,8 @@
 
 ### Using vitest for testing
 
+
+### Using prettier and eslint and editorconfig
 ```
 pnpm install -D prettier
 
@@ -30,10 +32,3 @@ Then, add "prettier" to the "extends" array in your .eslintrc.* file. Make sure 
 
 
 ## Do not
-
-### Using peeky test framework
-
-```
-$ pnpm install -D @peeky/test
-
-```
